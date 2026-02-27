@@ -1,0 +1,38 @@
+/* Estilos para EventCard */
+.event-card {
+  display: flex;
+  gap: 12px;
+  background: linear-gradient(rgba(0, 0, 0, 0.292));
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 7px auto;
+  align-items: center;
+}
+
+.event-card-left {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient( rgba(0,0,0,0.2));
+  border-radius: 8px;
+  color:(rgba(197, 120, 47, 0.284));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.event-day { font-size: 20px; }
+.event-month { font-size: 12px; text-transform: uppercase; }
+
+.event-card-right { flex: 1; }
+.event-title { margin: 0 0 6px 0; font-size: 18px; }
+.event-meta { font-size: 13px; color: #666; margin-bottom: 8px; }
+.event-desc { margin: 0; color: #444; }
+
+@media (max-width: 520px) {
+  .event-card { flex-direction: row; padding: 10px; }
+  .event-card-left { width: 60px; height: 60px; }
+}

@@ -1,0 +1,17 @@
+/* Estilos calendario */
+.calendar { max-width: 920px; margin: 20px auto; background: #fff; border-radius: 10px; padding: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.calendar-header { display:flex; align-items:center; justify-content:space-between; padding: 8px 12px; }
+.calendar-title { font-weight:700; }
+.calendar-nav { background:transparent; border:none; font-size:20px; cursor:pointer; }
+.calendar-grid { display:grid; grid-template-columns: repeat(7,1fr); gap:6px; padding: 8px; }
+.calendar-weekday { text-align:center; font-size:12px; color:#666; }
+.calendar-cell { min-height:80px; background:#7a7fc9; border-radius:6px; padding:8px; position:relative; }
+.calendar-cell.empty { background:transparent; box-shadow:none; }
+.calendar-day { font-weight:700; }
+.calendar-event-count { position:absolute; bottom:8px; right:8px; background:#f0a500; color:#fff; font-size:12px; padding:3px 6px; border-radius:12px; }
+.calendar-cell.has-event { box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+
+@media (max-width: 640px) {
+  .calendar-grid { gap:4px; }
+  .calendar-cell { min-height:60px; }
+}

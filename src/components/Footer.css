@@ -1,0 +1,43 @@
+/* Footer con botones sociales */
+.site-footer {
+  width: 97,5%;
+  background: (rgba(255, 255, 255, 0.463));
+  color: #fff;
+  padding: 18px 20px;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-inner {
+  max-width: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footer-brand { font-weight: 700; letter-spacing: 1px; }
+
+.footer-buttons { display: flex; gap: 10px; }
+
+.social-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.social-btn:hover { transform: translateY(-3px); opacity: 0.95; }
+
+.social-btn.instagram { background: url(https://pin.it/2KyUw7Lkr); }
+.social-btn.whatsapp { background:url(https://pin.it/2KyUw7Lkr); }
+.social-btn.gmail { background: url(https://pin.it/2KyUw7Lkr); }
+
+@media (max-width: 560px) {
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-buttons { margin-top: 8px; }
+}

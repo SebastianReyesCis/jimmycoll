@@ -1,0 +1,16 @@
+/* Estilos mínimos para demo */
+html, body, #root {
+	height: 100%;
+	margin: 0;
+}
+body {
+	font-family: Inter, system-ui, Arial, sans-serif;
+	overflow-y: hidden; /* elimina scroll vertical */
+	overflow-x: hidden; /* elimina scroll horizontal */
+}
+.App {
+	min-height: 100%;
+	height: 100%;
+	overflow: hidden;
+	max-width: 100vw; /* evita que contenido exceda el ancho de la ventana */
+}
