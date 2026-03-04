@@ -29,8 +29,8 @@
 
 .event-card-right { flex: 1; }
 .event-title { margin: 0 0 6px 0; font-size: 18px; }
-.event-meta { font-size: 13px; color: #666; margin-bottom: 8px; }
-.event-desc { margin: 0; color: #444; }
+.event-meta { font-size: 13px; color: #fffbfb; margin-bottom: 8px; }
+.event-desc { margin: 0; color: #fffdfd; }
 
 @media (max-width: 520px) {
   .event-card { flex-direction: row; padding: 10px; }

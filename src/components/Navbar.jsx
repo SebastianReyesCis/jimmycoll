@@ -18,7 +18,7 @@ export function Navbar({ onNavigate }) {
         <span></span>
       </div>
       <ul className={`nav-links ${open ? 'active' : ''}`}>   
-        <li><a href="#" onClick={(e) => { e.preventDefault(); handleNavigation('zoom'); }}>Clases por Zoom</a></li>
+        <li><a href="#" onClick={(e) => { e.preventDefault(); handleNavigation('zoom'); }}></a></li>
       </ul>
     </nav>
   );
