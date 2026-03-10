@@ -1,7 +1,7 @@
 /* Footer con botones sociales */
 .site-footer {
   width: 97,5%;
-  background: (rgba(255, 255, 255, 0.463));
+  background: (rgba(255, 255, 255, 0.649));
   color: #fff;
   padding: 18px 20px;
   position: relative;
@@ -19,23 +19,54 @@
 
 .footer-brand { font-weight: 700; letter-spacing: 1px; }
 
-.footer-buttons { display: flex; gap: 10px; }
+.footer-buttons { 
+  display: flex; 
+justify-content: space-around; }
 
-.social-btn {
+.social-btn.instagram {
   display: inline-block;
   padding: 8px 12px;
   border-radius: 8px;
   text-decoration: none;
+  background-color: rgba(255, 172, 186, 0.234);
   color: #fff;
   font-weight: 600;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
+.social-btn.gmail {
+  display: inline-block;
+  position:right;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.251);
+  color: #fff;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.social-btn.whatsapp{
+  position:fixed;
+  width:85px;
+  height:85px;
+  bottom:30px;
+  right:25px;
+  background:#27cd6442;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  text-decoration:none;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition:0.5s;
+}
 
-.social-btn:hover { transform: translateY(-3px); opacity: 0.95; }
+.social-btn:hover { transform: translateY(-5px); opacity: 0.95; }
 
-.social-btn.instagram { background: url(https://pin.it/2KyUw7Lkr); }
-.social-btn.whatsapp { background:url(https://pin.it/2KyUw7Lkr); }
-.social-btn.gmail { background: url(https://pin.it/2KyUw7Lkr); }
+
 
 @media (max-width: 560px) {
   .footer-inner { flex-direction: column; text-align: center; }

@@ -5,8 +5,6 @@
 }
 
 .portfolio-card-inner {
-  display: flex;
-  align-items: center;
   gap: 30px;
   background: linear-gradient(90deg,#2812051b 100%,#441d03);
   padding: 22px;
@@ -16,19 +14,21 @@
 
 .portfolio-title {
   flex: 0 0 240px;
+  display: flex;
+  justify-content:center ;
 }
 
 .portfolio-button {
-  display: inline-block;
-  margin: 0;
-  padding: 10px 18px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 38px;
   font-size: 1.6rem;
   color: white;
   background: transparent;
   border: 2px solid transparent;
   cursor: pointer;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   transition: 1s;
   background-color: #0000005c;
   border-radius: 8px;

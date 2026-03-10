@@ -10,10 +10,7 @@ export function PortfolioCard() {
             link.href = '/Dossier Jimmy (1).pdf';
             link.download = 'Dossier Jimmy (1).pdf';
             link.click();
-          }}>Portafolio</button>
-        </div>
-        <div className="portfolio-desc">
-          <p>¿Te gustaría trabajar conmigo? Mira mi portafolio en el botón del costado; ahí encontrarás toda la información que necesitas.</p>
+          }}>Descargar Dossier</button>
         </div>
       </div>
     </section>
